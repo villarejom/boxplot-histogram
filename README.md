@@ -4,3 +4,5 @@ First <- c("bad","bad","bad","bad", "good","good","good","good","NA","bad")
 Second <- c("low", "low", "high", "high", "low", "low", "high", "high", "high", "high")
 Finaldecision  <- c("low", "high", "low", "high", "low", "high", "low", "high","high", "high")
 data.frame(Freq, Bloodp, First, Second, Finaldecision) # create data frame
+d <-data.frame(Freq, Bloodp, First, Second, Finaldecision) #assign d to data.frame
+str (d) verify the structure of data.frame
