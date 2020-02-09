@@ -7,7 +7,6 @@ data.frame(Freq, Bloodp, First, Second, Finaldecision) # create data frame
 d <-data.frame(Freq, Bloodp, First, Second, Finaldecision) #assign d to data.frame
 str (d) verify the structure of data.frame
 hist(d$Freq)
-hist(d$Bloodp)
 > # Histogram with options
 > hist(d$Freq,
 +   breaks = 7,  # Suggest number of breaks
@@ -16,7 +15,6 @@ hist(d$Bloodp)
 +   xlab   = "Integer",
 +   border = NA,  # No borders on bars
 +   col    = "#CD0000"  # red3
-boxplot (d)
 boxplot(d$Freq)
 boxplot(d$Bloodp)
 Second <-c(0, 0, 1, 1, 0, 0, 1, 1, 1, 1) #manually enter values for Second ANd Final Decision so they will be recongized as numeric  High =1 Low =0
